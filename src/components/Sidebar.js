@@ -2,7 +2,7 @@ import { AccountBox, Article, DarkMode, Group, Home, Person, Settings, Storefron
 import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material'
 import React from 'react'
 
-export default function Sidebar() {
+export default function Sidebar(props) {
     return (
         <Box flex={1} p={2} sx={{ display: { xs: "none", sm: "block"}}}>
             <Box position="fixed">
@@ -76,7 +76,7 @@ export default function Sidebar() {
                     <ListItemIcon>
                         <DarkMode/>
                     </ListItemIcon>
-                    <Switch/>
+                    <Switch onChange={e=>props.setMode(props.mode === "light" ? "dark" : "light")}/>
                     </ListItemButton>
                 </ListItem>
             </List>
