@@ -17,7 +17,7 @@ FriendCircle is a frontend website for a social media platform using Material UI
 
 ## Home Page
 
-<img width="1440" alt="Screenshot 2023-06-13 at 6 24 55 PM" src="https://github.com/noah-delacruz/BarackObamaSwag/assets/43018893/1b7811f7-75f5-45f4-bb59-7835309ec5bc">
+![Screenshot 2023-06-28 at 1 37 47 AM](https://github.com/noah-delacruz/FriendCircle/assets/43018893/b1e9d372-14d8-4567-9fec-76814097dddf)
 
 ## Run Locally
 
